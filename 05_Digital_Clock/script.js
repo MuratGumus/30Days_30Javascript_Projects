@@ -23,5 +23,6 @@ const callBack = ()=>{
 }
 const clock = setInterval(callBack);
 
+
 // * padStart' incelemek isteyenler için w3school linki
 // * https://www.w3schools.com/jsref/jsref_string_padstart.asp
