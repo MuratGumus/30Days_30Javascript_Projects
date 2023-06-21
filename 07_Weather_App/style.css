@@ -4,13 +4,13 @@
     }
     body {
       text-align: center;
-       margin-top: 50px;
+      margin-top: 50px;
       height: 94.5vh;
-       background: rgb(255,255,255);
-       background: linear-gradient(207deg, rgba(255,255,255,1) 7%, rgba(92,190,191,1) 100%);
+      background: rgb(255,255,255);
+      background: linear-gradient(207deg, rgba(255,255,255,1) 7%, rgba(92,190,191,1) 100%);
       /* background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
        */
     }
     .card-form {
@@ -70,7 +70,7 @@
       .fa-c {
         font-size: 2.2rem;
       }
-     
+    
 } .nem-durumu{
         
       margin-left: 60px !important;
@@ -82,7 +82,7 @@
           
         }
         @media only screen and (max-width: 600px){
-         
+        
         }
         @media only screen and (max-width: 425px){
 

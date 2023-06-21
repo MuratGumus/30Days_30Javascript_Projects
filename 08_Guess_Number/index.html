@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5">Sayi Tahmin Oyunu</h1>
+      <div class="oyun">
+        <!-- ! bu kismi da jd dinamik yapabiliriz eger sayi araiklarini degistirmke istersek span etiketi ile aralilklari girebilirz. daha dinamik bir oyun saglamis oluruz. -->
+        <p>
+          Sayi tahmini <span class="min">1</span> ile
+          <span class="max">10</span> arasinda olsun...
+        </p>
+        <div class="form-group d-flex gap-5">
+          <!-- !input u icerde kontrol etmek icin bir de id verelim.   -->
+          <input
+            type="number"
+            placeholder="Bir sayi giriniz...."
+            class="form-control"
+            id="tahmin-input"
+          />
+          <!-- !button u icerde kontrol etmek icin bir de id verelim.   -->
+          <button
+            id="tahmin-btn"
+            type="submit"
+            class="form-control btn btn-primary"
+          >
+            Gonder
+          </button>
+        </div>
+        <!--! Bu kisim JS de donucek ve dinamik olacak. girdiginiz sayi basarili, tahmin edemenidiniz gibi, basarisiz, basarili oldunuz vb. input kisminda sayiyi yazdirdkten sonra asagidaki p elementi ile mesaj yazdirilir.-->
+        <p class="mesaj mt-3"></p>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
